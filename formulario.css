@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ header{
+        padding: 2% 2% 2% 45%;
+ }
+.titulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 3%;
+}
+p{
+    font-weight: bold;
+}
+body{
+    background-color:#F0F8FF;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 40%;
+    justify-content:center ;
+}
+input, select,button{
+    border-radius: 3px;
+}
+.grupo{
+    border: solid 2px black;
+}
+.itens{
+    margin-bottom: 1em;
+}
+
+.info_matricula{
+    display: flex;
+    gap: 3vh;
+}
+.botao{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 1%;
+}

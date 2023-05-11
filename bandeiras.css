@@ -1,0 +1,37 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ 
+ header{
+        padding: 2% 2% 2% 49%;
+ }
+.titulo__bandeiras{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.bandeiras{
+    width: 30%;
+    height: 30%;
+    margin: 0 36%;
+}
+body{
+    background-color: rgb(212, 243, 233);
+    padding: 0;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+.nome{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 36px;
+    padding: 2%;
+}
+.continente{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 42px;
+}

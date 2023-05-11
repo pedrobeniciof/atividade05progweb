@@ -1,0 +1,28 @@
+header{
+    padding: 1% 1% 1% 49%;
+}
+body{
+    background-color:#F0F8FF;}
+.tabela{
+    margin: 5% auto;
+}
+.tabela, td{
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding: 6px;
+    height: 30px;
+    width: 25%;
+}
+thead{
+    text-align: center;
+    font-weight: bold;
+    color: blueviolet;
+}
+.continente, tbody{
+    text-align: center;
+}
+.bandeiras{
+    width: 100%;
+
+}
+

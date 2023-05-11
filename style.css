@@ -1,0 +1,11 @@
+body{
+    background-color:#F0F8FF;}
+
+.menu{
+    padding: 25% 0% 0% 25%;
+}
+.menu__paginas{
+    display: flex;
+    gap: 120px;
+    font-family: sans-serif;
+}

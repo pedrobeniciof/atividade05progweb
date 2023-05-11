@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Menu</a>
+        </nav>
+    </header>
+    <main>
+        <div class="titulo">
+            <h1>Escola Virtual</h1>
+            <h2>Formulario de pré-matricula</h2>
+        </div>
+       
+        <form>
+            <fieldset class="grupo">
+                <p>Dados pessoais</p>
+
+                <div class="itens">
+                    <label for="nome">Nome do aluno</label> 
+                    <input type="text" nome="nome" id="nome" placeholder="Seu nome">
+                </div>
+                <div class="itens">
+                    <label for="nascimento">Nascimento</label>
+                    <input type="date" name="nasc" id="nasc">
+                </div>
+                <div class="itens">
+                    <label for="Nomemae">Nome da Mãe</label>
+                    <input type="text" nome="nome_mae" id="nome_mae" placeholder="Nome e sobrenome">
+                </div>
+                <div class="itens">
+                    <label for="Nomempai">Nome da Pai</label>
+                    <input type="text" nome="nome_pai" id="nome_pai" placeholder="Nome e sobrenome">
+                </div>
+                <div class="itens">
+                    <label for="telefone">Telefone DDD:</label>
+                    <input type="tel" id="ddd" placeholder="(xx)">
+                    <label for="Tel">Tel:</label>
+                    <input type="tel" id="tel" placeholder="xxxxxx-xxxx">
+                    <label for="Ramal">Ramal<input type="tel" id="ramal" placeholder="xxxxx"></label>
+                    
+                </div>
+                <div class="itens">
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="xxxxxx@xxxx.com">
+                </div>
+            </fieldset>
+            <fieldset>
+                <p>Informações de Matricula</p>
+            <section class="info_matricula">
+                <div>
+                    <label for="serie">Série:</label>
+                    <select name="serie" id="serie">
+                        <option value="pre_escolar">Pré-escolar</option>
+                        <option value="fund1_5">Fundamental 1º ao 5º</option>
+                        <option value="fund6_9">Fundamental 6º ao 9º</option>
+                    </select><br>
+                </div>
+                <div>
+                    <label for="turno">Turno:</label><br>
+                    <label><input type="radio" name="turno" value="manha">Manhã</label><br>
+                    <label><input type="radio" name="turno" value="tarde">Tarde</label>
+                </div>
+                <div class="itens" id="extra">
+                    <label for="ativi">Atividades Extracurriculares:</label><br>
+                    <label for="info"><input type="checkbox" name="info" id="info">Informática</label><br>
+                    <label for="msc"><input type="checkbox" name="msc" id="msc">Música</label><br>
+                    <label for="Balet"><input type="checkbox" name="Balet" id="Balet">Balet</label><br>
+                    <label for="Pintura"><input type="checkbox" name="Pintura" id="Pintura">Pintura</label><br>
+                    <label for="judo"><input type="checkbox" name="judo" id="judo">Judô</label><br>
+                    <label for="fut"><input type="checkbox" name="fut" id="fut">Futebol</label><br>
+                </div>
+            </section>
+            </fieldset>
+            <div class="botao">
+                <button class="enviar" type="submit">Enviar Formulário</button>
+                <button type="reset">Limpar dados</button>
+            </div>
+
+        </form>
+
+    </main>
+</body>
+</html>
